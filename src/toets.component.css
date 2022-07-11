@@ -1,0 +1,119 @@
+.card{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+li{
+  list-style-type: none ;
+  cursor: pointer;
+  margin: 10px 0;
+}
+li. card:hover{
+  border: 2px solid green;
+}
+ol{
+  padding: 0;
+}
+
+header{
+  position: fixed;
+  top:0; left: 0; right:0;
+  background:#37B465;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:2rem 9%;
+  height: 30px;
+}
+
+header .logo{
+  font-size: 25px;
+  font-weight: bolder;
+  color:#fff;
+  text-transform: uppercase;
+}
+
+header .logo span{
+  color:blue;
+}
+
+header .navbar a{
+  color:#fff;
+  font-size: 25px;
+  margin:0 .8rem;
+}
+
+header .navbar a:hover{
+  color:black;
+}
+
+header .icons i{
+  font-size: 2.5rem;
+  color:#fff;
+  cursor: pointer;
+  margin-right: 2rem;
+}
+
+header .icons i:hover{
+  color:orange;
+}
+.footer{
+  background:#37B465;
+  width: 2500px;
+  height: 70px;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 0px;
+
+}
+
+.footer .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:25.0rem;
+}
+
+.footer .box-container .box{
+
+  flex:1 1 15rem;
+}
+
+.footer .box-container .box h3{
+  font-size: 2.5rem;
+  padding:.1rem 0;
+  color:#fff;
+}
+
+.footer .box-container .box p{
+  font-size: 1.5rem;
+  padding:.3rem 0;
+  color:#eee;
+}
+
+.footer .box-container .box a{
+  display: block;
+  font-size: 1.1rem;
+  padding:.4rem 0;
+  color:#eee;
+}
+
+.footer .box-container .box a:hover{
+  color:blue;
+
+}
+
+.footer .credit{
+  text-align: center;
+  padding:2rem 1rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: normal;
+  color:#fff;
+  border-top: .1rem solid rgba(255,255,255,.2);
+}
+
+.footer .credit span{
+  color:blue;
+}
+
