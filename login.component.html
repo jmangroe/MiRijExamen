@@ -1,0 +1,37 @@
+<img class="background" src="https://www.autotheoriexl.nl/uploads/782872/voorrangsKruispuntje.jpg">
+<form id="form" #login="ngForm" [formGroup]="loginForm" style="padding-left: 580px;padding-top: 70px" >
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <div class="form-inner" class="form span">
+    <img src= "assets/image/Screenshot%20(17).png" width=100px; height=100px;  alt="logo">
+    <h2 style="color: red; padding-left: 140px">LOGIN</h2>
+    <div class="content">
+      <div class="form-group">
+        <label for="UserName">Username:</label><br>
+        <input class="input" id="userName" type="text" formControlName="userName" name="userName"  placeholder="  Username" required ><br>
+        <span style="color: red" *ngIf="(loginForm.controls['userName'].touched || loginForm.controls['userName'].dirty) && loginForm.hasError('required', 'userName')">
+          Username verplicht!
+        </span>
+        <br>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password:</label><br>
+        <input class="input"  id="password" type="text" formControlName="password" name="password" placeholder="  Password" required ><br>
+        <span style="color: red" *ngIf="(loginForm.controls['password'].touched || loginForm.controls['password'].dirty) && loginForm.hasError('required', 'password')">
+          Password verplicht!
+        </span>
+        <br>
+      </div>
+
+      <button  class="btn" type="submit"><a style="text-decoration: none;color: white" routerLink="/home" id="home">Login</a></button>
+
+    </div>
+  </div>
+</form>
+
+
+
+
