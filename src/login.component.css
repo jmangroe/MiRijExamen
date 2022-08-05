@@ -55,18 +55,19 @@ img.background {
   font-size: 25px;
   color: #d7a3d7;
 }
-.input {
+.input, form-control {
   display: block;
   padding: 9px 15px;
   border: 1.5px solid rgb(109, 87, 121);
   outline: none;
-  background: #19052c;
+  background: #c0bbbb;
   color: white;
   width: 100%;
   left: 50%;
   border-radius: 10px;
   margin-top: 20px;
 }
+
 .btn {
   margin-top: 0px;
   width: 100%;
@@ -81,7 +82,7 @@ img.background {
   background: green;
 }
 .btn:hover {
-  background: greenyellow;
+  background: darkolivegreen;
 }
 
 .form span {
@@ -179,25 +180,5 @@ img.background {
   }
 }
 
-@keyframes span4 {
-  0% {
-    bottom: -48%;
-    right: -48%;
-  }
-  25% {
-    bottom: -48%;
-    right: 98%;
-  }
-  50% {
-    bottom: 98%;
-    right: 98%;
-  }
-  75% {
-    bottom: 98%;
-    right: -48%;
-  }
-  100% {
-    bottom: -48%;
-    right: -48%;
-  }
-}
+
+
